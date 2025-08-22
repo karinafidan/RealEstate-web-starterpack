@@ -1,0 +1,22 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+.App>:nth-child(1)
+{
+    background: var(--black);
+    position: relative;
+}
+
+.white-gradient{
+    position:absolute;
+    top: 90px;   /* 👈 push it below header */
+    left: 50px;
+    width:12rem;
+    height: 12rem;
+    background:rgb(225, 225, 255, 0.522);
+    filter:blur(100px);
+    border-radius: 200px;
+    z-index: 1;
+}
