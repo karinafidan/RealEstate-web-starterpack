@@ -1,0 +1,20 @@
+.f-container {
+    justify-content:space-evenly ;
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.menu-icon {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
